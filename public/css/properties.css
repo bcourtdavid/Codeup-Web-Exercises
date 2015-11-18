@@ -1,0 +1,17 @@
+
+#test {
+	color:red;
+}
+#page-header {
+	color:#00FF00;
+}
+.todo-item h1 {
+	text-decoration: underline;
+}
+.todo-item>a {
+	color:red;
+}
+li {
+	text-indent:150px;
+	text-align:right;
+}

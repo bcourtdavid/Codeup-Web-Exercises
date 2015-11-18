@@ -1,0 +1,24 @@
+a:link {
+	font-weight:700;        
+	background-color:black;
+}
+a:hover {
+	background-color:white;
+}
+a:active {
+	border:1px solid black;
+}
+h1 {
+	font-weight: normal;
+}
+
+h1, .abstract, #article-subhead {
+	/*transform: rotate(180deg); */
+	color:green;
+}
+h1.headline-class {
+	color:red;
+}
+#article-subhead {
+	background-color:salmon;
+}
