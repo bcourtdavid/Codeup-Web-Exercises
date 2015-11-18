@@ -4,6 +4,9 @@
 }
 #page-header {
 	color:#00FF00;
+	font-family:"comic sans ms", "webdings", Serif;
+	font-size:18px;
+	font-weight:lighter;
 }
 .todo-item h1 {
 	text-decoration: underline;
