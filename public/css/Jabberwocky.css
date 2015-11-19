@@ -1,8 +1,11 @@
 .main-title {
-	font-size:250%;
+	font-size:190%;
+	font-family:Georgia;
 }
 #authors {
 	font-size:200%;
+	font-family:Georgia;
+	font-weight:lighter;
 }
 #wrong-author {
 	background-color:red;
@@ -14,6 +17,7 @@
 .first-para {
 	text-indent:100px;
 	font-size:150%;
+	font-family:tahoma;
 }
 #fp-first-it {
 	font-style:italic;
@@ -24,6 +28,7 @@
 .second-para {
 	text-align:right;
 	font-size:150%;
+	font-family:tahoma;
 }
 #sp-first-bd {
 	font-weight:bold;
@@ -31,9 +36,13 @@
 .third-para {
 	text-indent:80px;
 	font-size:150%;
+	font-family:tahoma;
+}
+#tp-break {
+	content: "\2014";
 }
 .bottom-link {
-	font-family: fantasy;
+	font-family:fantasy;
 	font-size:300%;
     text-decoration: none;
 }
