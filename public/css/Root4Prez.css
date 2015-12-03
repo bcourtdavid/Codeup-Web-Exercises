@@ -1,0 +1,49 @@
+.container {
+    box-sizing: border-box;
+    margin: 0 auto;
+    width: 80%;
+    max-width: 1200px;
+}
+.row {
+    box-sizing: border-box;
+    width:100%;
+    padding: 10px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.header {
+	background-color: #720000;
+}
+.img { 
+   position: relative; 
+   width: 100%;
+}
+
+.entry { 
+   position: absolute;  
+   width: 100%; 
+}
+.pic {
+    background-color: #727200;
+}
+.row1 {
+    box-sizing: border-box;
+    width:100%;
+}
+.text1 {
+	padding:10px;
+	background-color: #727272;
+	width:75%;
+}
+.text2 {
+	padding:10px;
+	background-color: #240000;
+	width:25%;
+}
+.footer {
+	padding: 5px;
+	background-color: #242400;
+}
