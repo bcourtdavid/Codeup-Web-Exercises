@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Scope JS</title>
+</head>
+<body>
+    <script>
+    	"use strict";
+		(function () {
+			var name = "David";
+			var sayHello = "Hello " + name + ".";
+			return console.log(sayHello);
+		})();
+
+		(function () {
+			var random = Math.floor((Math.random()*100)+1);
+			var trial = (random % 2 == 1) ? random + " is odd." : random + " is even.";
+			return console.log(trial);
+		})();
+
+    </script>
+</body>
+</html>
