@@ -6,18 +6,17 @@
 <body>
     <script>
     	"use strict";
-		(function () {
+		(function scope1() {
 			var name = "David";
-			var sayHello = "Hello " + name + ".";
-			return console.log(sayHello);
+			console.log("Hello " + name + ".");
 		})();
 
-		(function () {
+		(function randNum() {
 			var random = Math.floor((Math.random()*100)+1);
 			var trial = (random % 2 == 1) ? random + " is odd." : random + " is even.";
-			return console.log(trial);
+			console.log(trial);
 		})();
-
+		
     </script>
 </body>
 </html>
