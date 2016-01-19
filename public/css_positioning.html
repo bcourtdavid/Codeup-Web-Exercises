@@ -1,0 +1,102 @@
+
+<!DOCTYPE>
+<html>
+<head>
+    <title>Positioning Exercise</title>
+    <header>
+        <a href="https://en.wikipedia.org/wiki/Visible_spectrum"><h2>Visible Spectrum Wavelengths</h2></a>
+    </header>
+    <meta charset = "utf-8">
+    <style>
+        html {
+            box-sizing: border-box;
+        }
+        *, *:before, *:after {
+            box-sizing: inherit;
+        }
+        header {
+            margin-top: 50px;
+            margin-bottom: 50px;
+            margin-left: 0px;
+            font-size:135%;
+        }
+        .box {
+            color:white;
+            font-weight: bold;
+            width:72px;
+            height:72px;
+            padding:10px 10px;
+            border: 1px solid black
+        }
+        #container {
+            width: 650px;
+            height: 650px;
+            position: absolute;
+        }
+        #box1 {
+            background-color: #D84231;
+            position: relative;
+        }
+        #box2 {
+            background-color: #EAAE33;
+            position: relative;
+            top: -72px;
+            left: 122px;
+        }
+        #box3 {
+            background-color: #FDF733;
+            position: absolute;
+            top: 0px;
+            left: 244px;
+        }
+        #box4 {
+            background-color: #578C05;
+            position: absolute;
+        }
+        #box5 {
+            background-color: #234AFB;
+            position: absolute;
+            left: 122px;
+        }
+        #box6 {
+            background-color: #DF8BF0;
+            position: absolute;
+            left: 244px;
+        }
+        
+        .imgC {
+            position: absolute;
+            top: -40px;
+            right: -43px;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="box1" class="box">
+            <img id="img1" class="imgC" src="/img/codeup-arrow.png">
+            620-750 nm
+        </div>
+        <div id="box2" class="box">
+            <img id="img2" class="imgC" src="/img/codeup-arrow.png">
+            590-620 nm
+        </div>
+        <div id="box3" class="box">
+            <img id="img3" class="imgC" src="/img/codeup-arrow.png">
+            570-590 nm
+        </div>
+        <div id="box4" class="box">
+            <img id="img4" class="imgC" src="/img/codeup-arrow.png">
+            495-570 nm
+        </div>
+        <div id="box5" class="box">
+            <img id="img5" class="imgC" src="/img/codeup-arrow.png">
+            450-495 nm
+        </div>
+        <div id="box6" class="box">
+            <img id="img6" class="imgC" src="/img/codeup-arrow.png">
+            380-450 nm
+        </div>
+    </div>
+</body>
+</html>
