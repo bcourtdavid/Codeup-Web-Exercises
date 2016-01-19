@@ -59,7 +59,7 @@
         function checkLength(str) {
             do {
                 var str = prompt("Please enter a word between 5 and 10 letters in length.");
-            } while(!str && str != null);
+            } while(!str && str != null && str != NaN);
 
             var i = str.length;
 
@@ -75,15 +75,14 @@
     	//Determine if a given letter is a vowel
         function isVowel(response) {
             do {
-                response = prompt("Please enter any letter.");
-            } while(!response && response != NaN);
-
-            if(response == "a" || "e" || "i" || "o" || "u") {
-                var ans = alert(response + ": is a vowel.");
+                var response = prompt("Please enter any letter."); 
+            } while (!response && response != NaN);
+            if(response === "a" || response === "e" || response === "i" || response === "o" || response === "u") {
+                var ans = alert(response + " is a vowel.");
             } else {
-                ans = alert(response + ": is not a vowel");
-            }
-
+                ans = alert(response + " is not a vowel");
+            }     
+            
             return ans;
         }
 
