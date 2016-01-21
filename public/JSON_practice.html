@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JSON Practice JS</title>
+</head>
+<body>
+    <script>
+    	"use strict";
+		console.log(customer.address.streetAddress);
+		console.log(customer.phoneNumber[0]);
+		var phoneNumber = customer.phoneNumber[0];
+		console.log(phoneNumber.type);
+		console.log(phoneNumber.number);
+
+		var customer = {
+			"firstName": "John",
+			"latName": "Smith",
+			"age": 25;
+			"address":
+		    {
+		  		"streetAddress": "21 2nd Street",
+		  		"city": "NewYork",
+		  		"state": "NY",
+		  		"postalCode": "10021"
+			},
+			"phoneNumber":
+			[
+				{
+					"type": "home",
+					"number": "212 555-1234"
+			  	},
+				{
+					"type": "home",
+					"number": "646 555-4567"
+				}
+			 ]
+		}
+    </script>
+</body>
+</html>
