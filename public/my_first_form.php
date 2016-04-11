@@ -9,18 +9,19 @@
     <meta charset = "utf-8">
 </head>
 <body>	
-    <!-- This exercise pracitces the use of HTML forms as well as the GET and POST methods -->
+    <!-- This exercise pracitces the use of form attributes and identifies why the use of 
+         a button tag is preferrable over an "input type = 'submit'" -->
 	<form method="POST" action="/my_first_form.php">
     <p>
         <label for="username">Username</label>
-        <input id="username" name="username" type="text">
+        <input id="username" name="username" type="text" placeholder="Enter Username">
     </p>
     <p>
         <label for="password">Password</label>
-        <input id="password" name="password" type="password">
+        <input id="password" name="password" type="password" placeholder="Enter Password">
     </p>
     <p>
-        <input type="submit">
+        <button type="submit">Login</button>
     </p>
 </form>
 </body>
